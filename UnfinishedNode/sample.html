@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="btnLoad">Load</button>
+    <div id="sample"></div>
+
+
+    <script>
+        $("#btnLoad").click(function () {
+            $.ajax({
+                type: "GET",
+                url: "./class/Math.csv",
+                dataType: "text",
+                error: function (error) {
+                    alert("Not connected");
+                },
+                success: function (data) {
+                    var studentData = data.split(/\r?\n|\r/);
+                    var tableData = "<table class = table>";
+
+                    for (var count = 1; count <= studentData.length; count++) {
+
+                        var cell = studentData[count].split(",");
+
+                        tableData += "<tr>";
+
+                        for (var cellNum = 0; cellNum <= cell.length; cellNum++) {
+                            if (count == 0) {
+                                tableData += "<th>" + cell[cellNum] + "</th>";
+                            } else {
+                                tableData += "<td>" + cell[cellNum] + "</td>";
+                            }
+                        }
+                        tableData += "</tr>";
+                    }
+                    tableData += "</table>";
+                    $("#sample").html(tableData);
+                }
+            });
+        })
+    </script>
+</body>
+
+</html>
