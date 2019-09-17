@@ -4,7 +4,7 @@ exports.createTable = function(data,response){
     "<thead><th>Names</th><th>Course</th><th>Email</th></thead><tbody>";
     var tr = "<tbody>";
     var closer = "</tbody></table></center></body></head></html>";
-
+    
     var clas = data.split("\n").join(",");
     var info = clas.split(',');
     var len = (info.length-1)/3;
