@@ -1,0 +1,15 @@
+{
+    "images": ["/images/cebu1.png", 
+        "/images/cebu2.jpg", 
+        "/images/cebu3.jpg"
+    ],
+    "name": "Province of Negros Oriental",
+    "group": "Visayas",
+    "population": "1,286,666",
+    "delicacies": [
+        "Letchon", 
+        "Otap", 
+        "Chorizo de Cebu"
+    ],
+    "writeUp": "As the center of trade, commerce, and tourism in the Philippines, you can only imagine that there is a lot to be seen and done in Cebu. From historic sites where Spanish settlers first landed to incredible underwater marine parks teeming with tropical sea life, you won’t be able to get enough of this South East Asian hub."
+}

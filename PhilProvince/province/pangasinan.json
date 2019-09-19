@@ -1,0 +1,16 @@
+{
+    "images": [
+        "/images/pangasinan1.png",
+        "/images/pangasinan2.jpg",
+        "/images/pangasinan3.jpg"
+        ],
+    "name": "Province of Pangasinan",
+    "group": "Luzon",
+    "population": "1,313,560",
+    "delicacies" : [
+        "Pakbet",
+        "Bagoong Monamon",
+        "Tupig"
+    ],
+    "writeUp": "The third biggest province in the whole Philippine Archipelago, derived its name from salt or “asin” in the vernacular."
+}
