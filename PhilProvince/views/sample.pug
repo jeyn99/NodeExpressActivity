@@ -2,14 +2,16 @@
 html(lang="en")
     head
         head
+        style
+            include style.css
         title Philippines
     body
     center
         h1=name
-        img(src=img1, style='width:100%; height:auto')
+        img(src=img1).img1
         br
-        img(src=img2, style='width:49%; height:500px')
-        img(src=img3, style='width:49%; height:500px')
+        img(src=img2).img
+        img(src=img3).img
         br
         label Group: 
         span=group

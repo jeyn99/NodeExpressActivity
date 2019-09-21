@@ -1,8 +1,8 @@
 {
     "images": [
-        "images/bohol.jpg",
-        "images/bohol2.jpg",
-        "images/bohol3.jpg"
+        "/images/bohol.jpg",
+        "/images/bohol2.jpg",
+        "/images/bohol3.jpg"
         ],
     "name": "Province of Bohol",
     "group": "Visayas",
