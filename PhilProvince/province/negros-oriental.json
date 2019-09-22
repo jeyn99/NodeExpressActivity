@@ -1,10 +1,11 @@
 {
     "images": [
-        "/images/negros1.jpg", 
+        "/images/negros1.png", 
         "/images/negros2.jpg", 
         "/images/negros3.jpg"
     ],
     "name": "Province of Negros Oriental",
+    "shortname": "Negros Oriental",
     "group": "Visayas",
     "population": "1,286,666",
     "delicacies": [
@@ -12,5 +13,6 @@
         "Bud-Bud", 
         "Puto"
     ],
-    "writeUp": "Negros is the fourth largest island of the Philippines, with a land area of 13,309.60 km². Negros is one of the many islands that comprise the Visayas, in the central part of the country. "
+    "writeUp": "Negros is the fourth largest island of the Philippines, with a land area of 13,309.60 km². Negros is one of the many islands that comprise the Visayas, in the central part of the country. ",
+    "rating": 0
 }

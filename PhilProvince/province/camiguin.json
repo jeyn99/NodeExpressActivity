@@ -5,6 +5,7 @@
         "/images/camiguin3.jpg"
         ],
     "name": "Province of Camiguin",
+    "shortname" : "Camiguin",
     "group": "Mindanao",
     "population": "88,478",
     "delicacies" : [
@@ -13,5 +14,5 @@
         "La Dolce Vita"
     ],
     "writeUp": "Camiguin is a beautiful island would be an understatement. True, most tourists and locals love the beautiful beaches, the rich marine life, refreshing waterfalls, hot and cold springs — and all of Camiguin’s tourist spots. However, there is more to Camiguin than meets the eye.",
-    "rating": "0"
+    "rating": 0
 }

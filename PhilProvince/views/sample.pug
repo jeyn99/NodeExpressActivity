@@ -4,24 +4,39 @@ html(lang="en")
         head
         style
             include style.css
-        title Philippines
+            include mystyle.css
+        title=shortname
     body
     center
-        h1=name
-        img(src=img1).img1
-        br
-        img(src=img2).img
-        img(src=img3).img
-        br
-        label Group: 
-        span=group
-        br
-        label Population: 
-        span=population
-        br
-        label Delicacies
-        ul
-            each food in delicacies
-                li=food
-        p=writeup
+        header
+            h1.display-4=name
+        div.container-fluid
+            img(src=img1).img-thumbnail
+        div.container-fluid
+            .row
+                .col-sm-6
+                    img(src=img2).img-responsive.img-fluid
+                .col-sm-6
+                    img(src=img3).img-responsive.img-fluid
+            .row.top
+                .col-sm-4
+                    .display-4 Group
+                    span=group
+                .col-sm-4
+                    .display-4 Population
+                    span=population
+                .col-sm-4
+                    ul.list-group-flush.display-4 Delicacies
+                    each food in delicacies
+                        li.list-group-item=food
+            .row.top
+                p=writeup
+
+            .row.top
+                .col-sm-6
+                    button.btn-primary 1
+                    button.btn-secondary 2
+                    button.btn-success 3
+                .col-sm-6
+                    .display-4 Rating
     

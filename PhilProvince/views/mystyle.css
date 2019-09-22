@@ -1,0 +1,23 @@
+img{
+    height: 500px!important;
+}
+
+body {
+    text-align: justify;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.img-thumbnail {
+    margin: 5%;
+    padding: 2%;
+    background-color:black;
+    border: 2px solid white;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto
+}
+
+.top {
+    margin-top: 5%!important;
+}
