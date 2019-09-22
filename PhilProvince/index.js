@@ -7,7 +7,7 @@ var fs = require('fs')
 app.set('view engine', 'pug');
 app.set('views','views');
 var proVisit = {"bohol":0, "cebu": 0, "negros-oriental": 0, "camiguin": 0, "pangasinan": 0}
-
+let pageVisit = 0;
 app.get('/', function (req, res) {
   res.end("Hello")
 })

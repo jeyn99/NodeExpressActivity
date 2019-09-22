@@ -24,12 +24,13 @@ html(lang="en")
                     .display-4 Group
                     span=group
                 .col-sm-4
-                    .display-4 Population
-                    span=population
-                .col-sm-4
                     ul.list-group-flush.display-4 Delicacies
                     each food in delicacies
                         li.list-group-item=food
+                .col-sm-4
+                    .display-4 Population
+                    span=population
+                
             .row.top
                 p=writeup
 
