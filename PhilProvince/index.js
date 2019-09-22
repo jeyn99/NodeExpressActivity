@@ -14,7 +14,6 @@ app.get('/', function (req, res) {
 
 app.use(express.static(path.join(__dirname, '/public')))
 
-
 app.get('/province/:name', function (req, res) {
   var provData;
   var name = req.params.name;
@@ -36,6 +35,7 @@ app.get('/province/:name', function (req, res) {
     })
   })
 })
+
 
 
 http.listen(port, function () {
