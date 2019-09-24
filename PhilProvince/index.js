@@ -47,10 +47,11 @@ app.get('/province/:name', function (req, res) {
 
 app.get("*", function (req, res) {
   res.send("Not found");
-  res.end();
   count.counter(req)
+  res.end();
 });
 
-http.listen(port, function () {
+http.listen(port, function (req) {
+  count.counter(req)
   console.log('listening on *:' + port);
 });
